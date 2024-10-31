@@ -1,2 +1,0 @@
-# drplaka-ecommerce
-documentation
