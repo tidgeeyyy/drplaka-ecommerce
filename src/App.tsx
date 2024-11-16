@@ -1,9 +1,12 @@
-import NavBar from './components/navbar.tsx'
+// import NavBar from './components/Navbar'
+import Login from './pages/Login'
+
+// <NavBar />
 
 function App() {
   return (
     <>
-      <NavBar />
+      <Login />
     </>
   )
 }
