@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev:api": "nodemon server.js",
+    "dev:api": "nodemon backend/server.js",
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
@@ -14,6 +14,7 @@
     "@radix-ui/react-label": "^2.1.0",
     "@radix-ui/react-select": "^2.1.2",
     "@radix-ui/react-slot": "^1.1.0",
+    "bcrypt": "^5.1.1",
     "boxicons": "^2.1.4",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",

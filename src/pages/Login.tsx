@@ -20,7 +20,7 @@ export default function Login() {
           <CardDescription>Enter your email below to login to your account</CardDescription>
         </CardHeader>
         <CardContent>
-          <form>
+          <form action="http://localhost:5000/api/users/aut" method="post">
             <div className="grid w-full items-center gap-4">
               <div className="flex flex-col space-y-1.5">
                 <Label htmlFor="email">Email</Label>
@@ -30,13 +30,14 @@ export default function Login() {
                 <Label htmlFor="password">Password</Label>
                 <Input id="name" placeholder="Password" />
               </div>
-            </div>
+            </div>         
+            <Button type="submit" className="w-full">
+            Login
+          </Button>
           </form>
         </CardContent>
         <CardFooter className="flex flex-col space-y-1.5">
-          <Button type="submit" className="w-full">
-            Login
-          </Button>
+
           <Button type="submit" variant="outline" className="w-full">
             <FaGoogle />
             Sign in using Google
